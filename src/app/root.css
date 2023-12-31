@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #040521;
+  --secondary-color: #FFC67E;
+  --tertiary-color: #FFFFFF;
+  --main-bg-color: #040521;
+  --light-bg-color: #FFC67E;
+
+  --principal-title-font: 'Lato', sans-serif;
+  --principal-title-weight: bold;
+  --principal-title-size: 1.6rem;
+
+  --secondary-title-font: 'Lato', sans-serif;
+  --secondary-title-weight: bold;
+  --secondary-title-size: 1.6rem;
+
+  --tertiary-title-font: 'Lato', sans-serif;
+  --tertiary-title-weight: bold;
+  --tertiary-title-size: 1.6rem;
+
+  --text-italic-font: 'Montserrat', sans-serif;
+  --text-italic-style: italic;
+  --text-italic-size: 1.6rem;
+
+  --main-menu-font: 'Montserrat', sans-serif;
+  --main-menu-weight: 600;
+  --main-menu-size: 1.2rem;
+
+  --text-regular-font: 'Inter', sans-serif;
+  --text-regular-size: 1.6rem;
+}
