@@ -1,8 +1,6 @@
-import './root.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css'
-import styles from './page.module.css'
-import Header from './components/header/page'
+import { useClient } from 'react';
+import Header from './components/header/page';
+import styles from './page.module.css';
 import Footer from './components/footer/page'
 
 export default function Home() {
