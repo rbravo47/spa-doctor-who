@@ -1,0 +1,39 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: var(--primary-color);
+  width: auto;
+  height: 60px;
+  font-family: var(--main-menu-font);
+  font-weight: var(--main-menu-weight);
+  font-size: var(--main-menu-size);
+  color: var(--tertiary-color);
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  border-top: 1px solid var( --tertiary-color);
+}
+  
+.main {
+  position: absolute;
+  right: 0;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  right: 80px;
+
+}
+.nav a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.logo{
+  width: 35px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+}
