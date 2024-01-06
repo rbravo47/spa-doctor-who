@@ -38,8 +38,6 @@
   font-family: var(--tertiary-title-font);
   font-size: var(--tertiary-title-size); 
   font-weight: var(--tertiary-title-weight);
-
-
 }
 .button {
   padding: 0px;
@@ -49,51 +47,31 @@
   --secondary-title-weight: bold;
   font-weight: var(--secondary-title-weight);
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 40px;
   width: 200px;
   height: 50px;
+  border: 0px solid var(--tertiary-color);
+}
+.navigation-dots {
+  position:absolute;
+  bottom: 20px;
+  left: 75%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
   border: 3px solid var(--tertiary-color);
 }
-.slick-dots {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
+.dot:hover {
+  background-color: transparent;
 }
-.slick-dots li {
-  margin: 0 5px;
-}
-.slick-dots button {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: white;
-  border: none;
-  cursor: pointer;
-}
-.slick-dots .slick-active button {
-  background-color: #333;
-}
-
-.slick-next,
-.slick-prev {
-  font-size: 24px; /* Ajusta el tamaño de la flecha según tus necesidades */
-  color: white;   /* Ajusta el color según tus necesidades */
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1; /* Ajusta el índice Z según sea necesario para que las flechas estén por encima del contenido */
-  cursor: pointer;
-}
-.slick-prev {
-  left: 10çpx; /* Ajusta la posición izquierda de la flecha anterior según tus necesidades */
-}
-.slick-next {
-  right: 10px; /* Ajusta la posición derecha de la flecha siguiente según tus necesidades */
+.activeDot {
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
