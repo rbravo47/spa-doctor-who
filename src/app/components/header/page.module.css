@@ -14,7 +14,6 @@
   color: var(--tertiary-color);
   margin-bottom: 0px;
   padding-bottom: 0px;
-  z-index: 5;
 
 }
 
@@ -47,6 +46,7 @@
 .logo{
   width: 12rem;
   height: 12rem;
+  z-index: 5;
 }
 
 @media screen and (min-width: 769px) {
@@ -63,9 +63,6 @@
   }
   .nav a {
     display: none;
-  }
-  .main {
-    position: relative;
   }
 }
 
