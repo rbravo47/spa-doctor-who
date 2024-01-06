@@ -101,8 +101,25 @@
     width: 150px; 
     height: 40px;
   }
-
-  .slick-dots {
-    bottom: 10px; 
+  .navigation-dots {
+    position:absolute;
+    bottom: 20px;
+    left: 75%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 3px solid var(--tertiary-color);
+  }
+  .dot:hover {
+    background-color: transparent;
+  }
+  .activeDot {
+    background-color: var(--secondary-color);
   }
 }
