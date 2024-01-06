@@ -37,9 +37,9 @@ const HeaderClient = ({ isMobile }) => {
         </main>
       )}
       
-      <Link href="/">
+      
         <img className={styles.logo} src="./../logos/logo.png" alt="Logo" />
-      </Link>
+      
      
       
       <nav className={styles.nav}>
