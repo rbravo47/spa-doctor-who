@@ -44,7 +44,6 @@
   background-color: var(--secondary-color);
   font-size: 22px;
   color: var(--primary-color);
-  --secondary-title-weight: bold;
   font-weight: var(--secondary-title-weight);
   cursor: pointer;
   border-radius: 40px;

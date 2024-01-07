@@ -23,7 +23,7 @@ const HeaderClient = ({ isMobile }) => {
       ) : (
         <nav className={styles.nav}>
           <Link href="/contacto">Contacto</Link>
-          <Link href="/conoce_a">Conoce-a</Link>
+          <Link href="/conoce">Conoce-a</Link>
           <Link href="/doctores">Doctores</Link>
         </nav>
       )}
@@ -31,17 +31,16 @@ const HeaderClient = ({ isMobile }) => {
         <main className={styles.main}>
           <nav className={`${styles.nav} ${styles.menu}`}>
             <Link href="/contacto">Contacto</Link>
-            <Link href="/conoce_a">Conoce-a</Link>
+            <Link href="/conoce">Conoce-a</Link>
             <Link href="/doctores">Doctores</Link>
           </nav>
         </main>
       )}
       
-      
+      <Link href="http://localhost:3000/"> 
         <img className={styles.logo} src="./../logos/logo.png" alt="Logo" />
-      
-     
-      
+      </Link>
+  
       <nav className={styles.nav}>
       
         <Link href="./../buscar">
