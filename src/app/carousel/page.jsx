@@ -51,7 +51,7 @@ export default function Carousel() {
   ))}
 </Slider>
       <div className={styles['navigation-dots']}>
-        {dots.map((_, index) => ( // Aquí cambiamos 'slides' por 'dots'
+        {dots.map((_, index) => ( 
           <div
             key={index}
             className={`${styles['dot']} ${index === activeSlide ? styles.activeDot : ''}`}

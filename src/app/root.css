@@ -27,4 +27,8 @@
 
   --text-regular-font: 'Inter', sans-serif;
   --text-regular-size: 1.6rem;
+
+  --text-regular-font: 'Monserrat', sans-serif;
+  --main-menu-weight: 400;
+  --text-regular-size: 2rem;
 }
